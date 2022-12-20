@@ -75,8 +75,15 @@ header{
 
 
 .header_of_text{
+    width: 400px;
+    height: 400px;
+    margin: auto;
     color: white;
-    margin: 13rem 0;
+    margin: 10rem 0 0 0;
+}
+
+.media_of_header_text{
+    width: 100%;
 }
 
 .header_of_text p{
@@ -112,14 +119,63 @@ header{
     transition: .7s;
 }
 
-.input_of_textplace button:hover{
-    font-weight: 700;
-    font-size: 15px;
+.img_of_header{
+    width: 500px;
+    height: 600px;
 }
 
 .img_of_header img{
-    width: 500px;
-    height: 500px;
+   width: 100%;
+}
+
+.about_section{
+    width: 74%;
+    margin:4rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_of_aboutsec{
+    width: 34%;
+}
+
+.img_of_aboutsec img{
+    width: 100%;
+}
+
+.text_about_section{
+    width: 50%;
+    color: white;
+}
+
+.text_about_section h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+
+.text_about_section h3{
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+.text_about_section h3 span{
+    color: rgb(0, 175, 0);
+    margin: 0 8px;
+}
+
+.text_about_section p{
+    margin: 11px 0;
+}
+
+.text_about_section button{
+    padding: 10px 25px;
+    border: none;
+    background-color: rgb(0, 175, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
 }
 
 @media only screen and (max-width:860px) {
@@ -129,5 +185,16 @@ header{
 
     nav ul{
         display: none;
+    }
+
+    .header_of_text{
+        width: 100%;
+    }
+
+    .img_of_header{
+        width: 100%;
+    }
+    header{
+        justify-content: center;
     }
 }
