@@ -35,14 +35,16 @@ nav ul{
     margin: 19px 0;
 }
 
-nav ul li{
+nav ul a{
     font-size: 19px;
     margin: 0 16px;
     cursor: pointer;
     transition: .7s;
+    color: white;
+    text-decoration: none;
 }
 
-nav ul li:hover{
+nav ul a:hover{
     color: rgb(0, 175, 0);
 }
 
